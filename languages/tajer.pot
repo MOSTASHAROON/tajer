@@ -2,9 +2,9 @@
 # This file is distributed under the same license as the Tajer package.
 msgid ""
 msgstr ""
-"Project-Id-Version: Tajer 1.0.3\n"
+"Project-Id-Version: Tajer 1.0.4\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/tajer\n"
-"POT-Creation-Date: 2016-03-03 11:21:48+00:00\n"
+"POT-Creation-Date: 2016-04-18 08:38:03+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -983,7 +983,7 @@ msgstr ""
 msgid "Link For"
 msgstr ""
 
-#: classes/admin/class-tajer-thickbox.php:96 includes/tajer-functions.php:1262
+#: classes/admin/class-tajer-thickbox.php:96 includes/tajer-functions.php:1277
 #: templates/dashboard.php:125
 msgid "Buy Now"
 msgstr ""
@@ -1230,7 +1230,7 @@ msgstr ""
 
 #: classes/frontend/class-tajer-cart-page.php:438
 #: classes/frontend/class-tajer-cart-page.php:443
-#: includes/tajer-functions.php:1566 includes/tajer-functions.php:1571
+#: includes/tajer-functions.php:1581 includes/tajer-functions.php:1586
 msgid "The trial version of this product has been activated for you!"
 msgstr ""
 
@@ -1241,19 +1241,19 @@ msgid ""
 msgstr ""
 
 #: classes/frontend/class-tajer-cart-page.php:486
-#: includes/tajer-functions.php:1645
+#: includes/tajer-functions.php:1660
 msgid " - includes "
 msgstr ""
 
 #: classes/frontend/class-tajer-cart-page.php:486
 #: classes/frontend/class-tajer-frontend-product.php:71
 #: classes/frontend/class-tajer-frontend-product.php:73
-#: includes/tajer-functions.php:1645
+#: includes/tajer-functions.php:1660
 msgid "% tax"
 msgstr ""
 
 #: classes/frontend/class-tajer-cart-page.php:486
-#: includes/tajer-functions.php:1645
+#: includes/tajer-functions.php:1660
 msgid " - excludes "
 msgstr ""
 
@@ -1278,7 +1278,7 @@ msgstr ""
 
 #: classes/frontend/class-tajer-content-seller.php:98
 #: classes/frontend/class-tajer-content-seller.php:174
-#: classes/frontend/class-tajer-dashboard.php:202
+#: classes/frontend/class-tajer-dashboard.php:204
 msgid "Error contact website admin!"
 msgstr ""
 
@@ -1304,7 +1304,7 @@ msgstr ""
 
 #: classes/frontend/class-tajer-dashboard.php:53
 #: classes/frontend/class-tajer-frontend-product.php:192
-#: includes/tajer-functions.php:1522
+#: includes/tajer-functions.php:1537
 msgid "Cant Remove The Product!"
 msgstr ""
 
@@ -1313,7 +1313,7 @@ msgid "Security check"
 msgstr ""
 
 #: classes/frontend/class-tajer-dashboard.php:114
-msgid "You haven't purchased this products."
+msgid "Unfortunately you can't download this file!"
 msgstr ""
 
 #: classes/frontend/class-tajer-dashboard.php:133
@@ -1580,15 +1580,15 @@ msgstr ""
 msgid "Sorry, this coupon is only available for purchases over "
 msgstr ""
 
-#: includes/tajer-functions.php:1495
+#: includes/tajer-functions.php:1510
 msgid "Please login first!"
 msgstr ""
 
-#: includes/tajer-functions.php:1519
+#: includes/tajer-functions.php:1534
 msgid "Product Removed From Cart!"
 msgstr ""
 
-#: includes/tajer-functions.php:1559
+#: includes/tajer-functions.php:1574
 msgid "Something wrong happen please contact the website admin"
 msgstr ""
 
