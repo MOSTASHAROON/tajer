@@ -10,8 +10,7 @@ class Tajer_Downloads_Tcpdf extends Tajer_Sales_Tcpdf {
 
 	//Page header
 	public function Header() {
-		global $current_user;
-		get_currentuserinfo();
+		$current_user = wp_get_current_user();
 		// Set font
 		$this->SetFont( 'helvetica', 'B', 20 );
 		// Title

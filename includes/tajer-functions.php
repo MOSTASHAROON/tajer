@@ -1286,8 +1286,7 @@ function tajer_customer_details( $user_id = 0 ) {//todo Mohammed test check this
 	if ( $user_id ) {
 		$user = get_user_by( 'id', $user_id );//todo Mohammed urgent is this will return everything below
 	} else {
-		global $current_user;
-		get_currentuserinfo();
+		$current_user = wp_get_current_user();
 		$user = $current_user;
 	}
 
@@ -1863,8 +1862,7 @@ function tajer_sanitize_amount( $amount ) {
 
 function tajer_is_trial_possible( $period, $product_id, $product_sub_id ) {
 
-	global $current_user;
-	get_currentuserinfo();
+	$current_user = wp_get_current_user();
 
 	//check if the admin deny the user by ip or by email or both then get the ip and the user email and check them
 	$restrict_by_ip    = tajer_get_option( 'restrict_by_ip', 'tajer_general_settings', '' );
@@ -1924,8 +1922,7 @@ function tajer_is_trial_possible( $period, $product_id, $product_sub_id ) {
 }
 
 function tajer_insert_trial_record( $product_id, $product_sub_id ) {
-	global $current_user;
-	get_currentuserinfo();
+	$current_user = wp_get_current_user();
 
 	$data = array(
 		'email'               => $current_user->user_email,
