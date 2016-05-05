@@ -23,6 +23,10 @@ class Tajer_Addons {
 	function admin_menu() {
 		global $submenu;
 
+		if ( ! is_array( $submenu['edit.php?post_type=tajer_products'] ) ) {
+			return;
+		}
+
 		$last_key = key( array_slice( $submenu['edit.php?post_type=tajer_products'], - 1, 1, true ) );
 
 		$new_key = ( $last_key ) + 1;
