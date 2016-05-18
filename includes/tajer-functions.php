@@ -205,7 +205,10 @@ function tajer_is_trial( $product_id, $product_sub_id ) {
 	$product_sub_ids_that_have_trial = array();
 
 	foreach ( $trials as $trial ) {
-		$product_sub_ids_that_have_trial = array_merge( $product_sub_ids_that_have_trial, $trial['prices'] );//todo Mohammed I think in case the trial is disabled $trial['prices'] is not array
+		if ( ! is_array( $trial['prices'] ) ) {
+			continue;
+		}
+		$product_sub_ids_that_have_trial = array_merge( $product_sub_ids_that_have_trial, $trial['prices'] );
 	}
 
 
@@ -1287,7 +1290,7 @@ function tajer_customer_details( $user_id = 0 ) {//todo Mohammed test check this
 		$user = get_user_by( 'id', $user_id );//todo Mohammed urgent is this will return everything below
 	} else {
 		$current_user = wp_get_current_user();
-		$user = $current_user;
+		$user         = $current_user;
 	}
 
 
