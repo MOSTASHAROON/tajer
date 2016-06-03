@@ -6,13 +6,13 @@ if ( ! defined( 'ABSPATH' ) ) {
   Plugin Name: Tajer
   Plugin URI: https://mostasharoon.org/tajer/
   Description: Tajer is an electronic merchant that can sell your digital products instead of you.
-  Version: 1.0.4
+  Version: 1.0.5
   Author: Mohammed Thaer
   Author URI: https://mostasharoon.org
   Text Domain: tajer
  */
 
-define( 'TAJER_VERSION', '1.0.4' );
+define( 'TAJER_VERSION', '1.0.5' );
 // Dir to the plugin
 define( 'Tajer_DIR', plugin_dir_path( __FILE__ ) );
 // URL to the plugin

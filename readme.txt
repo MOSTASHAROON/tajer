@@ -5,8 +5,8 @@ Contributors: Engr.MTH, MOSTASHAROON
 Donate link: https://mostasharoon.org/buy-us-a-coffee/
 Tags: market, marketplace, e-market, e-marketplace,download, downloads, e-store, shopping cart, eshop, digital downloads, e-downloads, ecommerce, e commerce, e-commerce, selling, wp-ecommerce, wp ecommerce, Mohammed Thaer, mohammedthaer, MOSTASHAROON
 Requires at least: 4.0
-Tested up to: 4.4.2
-Stable tag: 1.0.4
+Tested up to: 4.5.2
+Stable tag: 1.0.5
 
 License: GNU Version 2 or Any Later Version
 
@@ -17,16 +17,16 @@ Sell any kind of digital goods: downloads, articles,  a piece of content or any 
 Tajer - All In One eCommerce WordPress Premium Class Plugin.
 You can sell any kind of digital goods: downloads, articles,  a piece of content or any kind of content or virtual products.
 
-Its very easy yet powerful within just few clicks your product will be ready to sell!
+It's very easy yet powerful within just a few clicks your product will be ready to sell!
 
-You want to see this live? go ahead and visit [Tajer’s demo website](http://demo.mostasharoon.org/tajer/).
+Do you want to see this live? go ahead and visit [Tajer’s demo website](http://demo.mostasharoon.org/tajer/).
 
 
 Some of Tajer features include:
 
-* Upgrades: allow your users to upgrade their products to another products.
+* Upgrades: allow your users to upgrade their products to other products.
 * Trials: you can give your customers a free trial for any product!
-* Recurring(Subscription): create a single purchase subscription products and force your users to renew their subscription for any period of time(1 year, 2 months, 5 week, etc.).
+* Recurring(Subscription): create a single purchase subscription products and force your users to renew their subscription for any period of time(1 year, 2 months, 5 weeks, etc.).
 * Downloads Manager: you can use Tajer as a download manager to manage all your digital downloadable products.
 * Memberships & Access Manager: restrict post, page, custom post type, widget, menu item, single word, single line, etc. access for buyers of a specific product(s), or offers free products(remember with Tajer you can turn any digital content to a product!) but forces your users to log in or have a specific role in order to access it.
 * Statistics & Reports: watch your sales and earnings with fantastic graphs for any period of time: current day, yesterday, current week, last week, current month, last month, current year, last year, or for any custom date period you choose, also, you can export PDF, CSV reports files for any period of date for your sales, earnings, downloads, etc.
@@ -36,7 +36,7 @@ Some of Tajer features include:
 * No SSL: there is no need for SSL certificate to sale products.
 * Multilingual: multilingual ready.
 * 100+ Currencies: support by default more than 100 currencies and you can add more.
-* Taxes: you can charge taxes depending on country, county and state,etc.
+* Taxes: you can charge taxes depending on the country, county and state, etc.
 * Templates & Styles: Tajer uses one of most modern and beautiful CSS/JS framework which is [Semantic UI](http://semantic-ui.com/) to style its elements, you can make more than 160 color combination, also building templates for Tajer is a very easy process.
 * Backend User Products Manager: do you want to add a product to a user manually?or do you want to deactivate or remove a user’s product manually? or you will maybe need to extend the expiration date for a specific product for a specific user and much more. The backend user products manager allows you achieve that.
 * Backend Orders Manager: there is no need to PHPMyAdmin or a custom code or anything like that to modify your orders. You can manage theme from the backend(in case, for example, the users order failed for any unknown reason and you want to process it).
@@ -44,7 +44,7 @@ Some of Tajer features include:
 * Multi-Site Compatible.
 * [Well Documented](https://mostasharoon.org/tajer-documentation/).
 * Hooks: Tajer has about 500 hooks, this makes it very easy to modify its behavior or create add-ons or themes for it. Need more hooks? just tell us about them.
-* And much more . .
+* And much more.
 
 **Important Links**
 
@@ -78,6 +78,13 @@ Please visit [Tajer FAQs page](https://mostasharoon.org/tajer-documentation/taje
 
 
 == Changelog ==
+
+= 1.0.5, June 3, 2016 =
+
+* Enhance: Update tajer.pot file.
+* Enhance: remove get_currentuserinfo() deprecated function.
+* Fix: Fix array_merge warning in tajer_is_trial function.
+* Fix: Fix warning appear because null given in key() & array_slice() functions.
 
 = 1.0.4, March 4, 2016 =
 
